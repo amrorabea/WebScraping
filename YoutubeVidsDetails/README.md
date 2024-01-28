@@ -5,3 +5,11 @@
 **scrapes** the Title, URL, Publish date, Views, Channel URL and the Duration of the video.
 
 **Stores details from each video we got the info out of**
+
+Install requirements
+
+```pip
+pip install selenium
+```
+
+Webdriver - [Link](https://chromedriver.chromium.org/downloads) 

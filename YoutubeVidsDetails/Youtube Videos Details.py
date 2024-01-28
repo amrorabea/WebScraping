@@ -6,10 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
 
-service = Service(executable_path="chromedriver.exe")
-driver = webdriver.Chrome(service=service)
+driver = webdriver.Chrome()
 
-target = input("Search:")
+target = input("Search: ")
 target = target.replace(" ", "+")
 driver.get(f"https://www.youtube.com/results?search_query={target}")
 driver.maximize_window()
@@ -17,7 +16,7 @@ driver.maximize_window()
 cnt = 6000
 i = 6
 while i:
-    driver.execute_script(f"window.scrollBy(0, {cnt})", "")
+    driver.execute_script(f"Window.scrollBy(0, {cnt})", "")
     time.sleep(4)
     cnt += cnt
     i -= 1

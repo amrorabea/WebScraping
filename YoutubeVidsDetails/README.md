@@ -17,7 +17,10 @@ Webdriver - [Link](https://chromedriver.chromium.org/downloads)
 # Selenium Pros and Cons
 ## Pros
 Handles dynamic content
+
 Cross-platform support
+
 Interaction and automation
+
 ## Cons
 Uses more recources _(CPU)_

@@ -10,8 +10,7 @@ import keyboard
 email = ""
 password = ""
 
-service = Service(executable_path="chromedriver.exe")
-driver = webdriver.Chrome(service=service)
+driver = webdriver.Chrome()
 
 # LOGIN FIRST
 try:

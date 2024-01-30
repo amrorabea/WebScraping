@@ -3,10 +3,10 @@
 we first login LinkedIn with our email and password.
 ## Search Stage
 First you specify what you are up to search for 
-```py target = input("Search:")```
+```target = input("Search:")```
 
 Then specify the number of pages you want to search on 
-```py numOfPages = 3``` 
+```numOfPages = 3``` 
 (the more pages, the more results),
 But the more pages also means more CPU power usage.
 

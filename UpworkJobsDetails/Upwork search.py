@@ -6,8 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
 
-service = Service(executable_path="chromedriver.exe")
-driver = webdriver.Chrome(service=service)
+driver = webdriver.Chrome()
 
 target = input("Search:")
 target = target.replace(" ", "%20")

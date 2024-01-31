@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 
 target = input("Search:")
 target = target.replace(" ", "%20")
-driver.get(f"https://www.upwork.com/nx/search/jobs/?nbs=1&q={target}&sort=recency")
+driver.get(f"UPWORK ")
 time.sleep(10)
 content = driver.find_elements(By.XPATH, ".//article[@class='job-tile cursor-pointer px-md-4 air3-card air3-card-list px-4x']")
 

@@ -15,7 +15,7 @@ driver = webdriver.Chrome(service=service)
 
 # LOGIN FIRST
 try:
-    driver.get("https://web.facebook.com/groups/JordanianInStates/members")
+    driver.get("GROUP LINK GOES HERE")
     driver.maximize_window()
     time.sleep(5)
     email_ = driver.find_element(By.XPATH, ".//input[@type='email']")

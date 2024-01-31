@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 
 target = input("Search: ")
 target = target.replace(" ", "+")
-driver.get(f"https://www.youtube.com/results?search_query={target}")
+driver.get(f"YOUTUBE SEARCHED LINK GOES HERE")
 driver.maximize_window()
 
 cnt = 6000

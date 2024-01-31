@@ -27,7 +27,7 @@ except:
 
 target = input("Search:")
 target = target.replace(" ", "%20")
-driver.get(f"https://www.linkedin.com/jobs/search/?currentJobId=3816341368&keywords={target}&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true")
+driver.get(f"LINKED IN SEARCH GOES HERE")
 driver.maximize_window()
 
 time.sleep(2)
